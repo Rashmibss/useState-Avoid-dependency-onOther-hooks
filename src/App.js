@@ -18,7 +18,7 @@ export default function App() {
   return (
     <div className="app">
       <h1>Multiple useState Hooks</h1>
-      <div>
+      <div className="container">
         <h3 style={{ color: phoneColor }}>
           I am planning to buy a {phoneColor} colored iPhone
         </h3>

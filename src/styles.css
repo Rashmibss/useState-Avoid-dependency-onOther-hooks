@@ -1,4 +1,11 @@
 .app {
   font-family: sans-serif;
   text-align: center;
+  margin-top: 3rem;
+}
+.container {
+  padding: 2rem;
+  display: inline-block;
+  justify-content: center;
+  border: 1px solid black;
 }
