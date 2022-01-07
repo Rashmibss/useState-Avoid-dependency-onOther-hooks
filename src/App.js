@@ -18,6 +18,11 @@ export default function App() {
   return (
     <div className="app">
       <h1>Multiple useState Hooks</h1>
+      <div className="info">
+        There are two hooks here =&gt;
+        <p>1. To update the color of the phone color</p>
+        <p>2. To update the color of the headset</p>
+      </div>
       <div className="container">
         <h3 style={{ color: phoneColor }}>
           I am planning to buy a {phoneColor} colored iPhone
