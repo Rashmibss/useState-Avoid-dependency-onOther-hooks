@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./styles.css";
+import useffectWithoutDep from "./assets/images/useffectWithoutDep.jpg";
+import useEffectWithDep from "./assets/images/useEffectWithDep.jpg";
 
 export default function App() {
   const [phoneColor, setPhoneColor] = useState("black");
@@ -22,6 +24,10 @@ export default function App() {
         There are two hooks here =&gt;
         <p>1. To update the color of the phone color</p>
         <p>2. To update the color of the headset</p>
+      </div>
+      <div className="images-container">
+        <img src={useffectWithoutDep} alt="Dep" />
+        <img src={useEffectWithDep} alt="Dep" />
       </div>
       <div className="container">
         <h3 style={{ color: phoneColor }}>
