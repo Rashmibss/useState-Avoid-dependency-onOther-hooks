@@ -20,26 +20,11 @@ export default function App() {
   return (
     <div className="app">
       <h1>Multiple useState Hooks</h1>
-      {/* <div className="info">
-        There are two hooks here =&gt;
-        <p>1. To update the color of the phone color</p>
-        <p>2. To update the color of the headset</p>
-      </div>
-      <div className="images-container">
-        <img src={useffectWithoutDep} alt="Dep" />
-        <img src={useEffectWithDep} alt="Dep" />
-      </div>
-      <div className="container">
-        <h3 style={{ color: phoneColor }}>
-          I am planning to buy a {phoneColor} colored iPhone
-        </h3>
-        <h3 style={{ color: headsetColor }}>
-          I am planning to buy a {headsetColor} colored headset
-        </h3>
-      </div> */}
 
+      {/* 2 flex containers */}
       <div class="flex-container">
         <div class="flex-child magenta">
+          {/* Header */}
           <h3>Update the color of the phone color</h3>
 
           <div className="images-container">
@@ -47,6 +32,7 @@ export default function App() {
             <img src={useffectWithoutDep} alt="Dep" />
           </div>
 
+          {/* Useffect output */}
           <div className="container">
             <h4>Output</h4>
             <p style={{ color: phoneColor }}>
@@ -56,6 +42,7 @@ export default function App() {
         </div>
 
         <div class="flex-child green">
+          {/* Header */}
           <h3>To update the color of the headset</h3>
 
           <div className="images-container">
@@ -63,6 +50,7 @@ export default function App() {
             <img src={useEffectWithDep} alt="Dep" />
           </div>
 
+          {/* Useffect output */}
           <div className="container">
             <h4>Output</h4>
             <p style={{ color: headsetColor }}>
