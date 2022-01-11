@@ -11,6 +11,10 @@
   border: 2px solid black;
 }
 
+h1 {
+  color: red;
+}
+
 h3 {
   padding-bottom: 1rem;
   border-bottom: 6px double black;
