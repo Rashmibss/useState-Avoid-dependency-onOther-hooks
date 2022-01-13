@@ -3,13 +3,8 @@
   text-align: center;
   margin-top: 3rem;
 }
-.container {
-  margin-top: 2rem;
-  padding: 1rem;
-  display: inline-block;
-  justify-content: center;
-  border: 2px solid black;
-}
+
+/* headings */
 
 h1 {
   color: red;
@@ -20,6 +15,18 @@ h3 {
   border-bottom: 6px double black;
 }
 
+/* containers */
+
+.container {
+  margin-top: 2rem;
+  padding: 1rem;
+  display: inline-block;
+  justify-content: center;
+  border: 2px solid black;
+}
+
+/* flex */
+
 .flex-container {
   display: flex;
   margin: 0rem 1rem;
@@ -29,11 +36,11 @@ h3 {
   padding: 2rem 1rem;
   flex: 1;
   border: 8px double red;
-}  
+}
 
 .flex-child:first-child {
   margin-right: 20px;
-} 
+}
 
 @media only screen and (max-width: 1000px) {
   .flex-container {
@@ -49,5 +56,5 @@ h3 {
 
   .flex-child:first-child {
     margin-right: 0px;
-  } 
+  }
 }
