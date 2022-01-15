@@ -22,8 +22,8 @@ export default function App() {
       <h1>Multiple useState Hooks</h1>
 
       {/* 2 flex containers */}
-      <div class="flex-container">
-        <div class="flex-child magenta">
+      <div className="flex-container">
+        <div className="flex-child magenta">
           {/* Header */}
           <h3>Update the color of the phone color</h3>
 
@@ -41,7 +41,7 @@ export default function App() {
           </div>
         </div>
 
-        <div class="flex-child green">
+        <div className="flex-child green">
           {/* Header */}
           <h3>To update the color of the headset</h3>
 
